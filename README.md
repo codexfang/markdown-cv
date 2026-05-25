@@ -1,0 +1,87 @@
+# Markdown CV
+
+A production-quality, real-time Markdown-based resume builder with live preview and PDF export. Built entirely as a static React + Vite application — no server required.
+
+## Features
+
+- **Live Markdown Editor** — Write resumes in Markdown with real-time rendered preview
+- **3 Resume Templates** — Minimal (ATS-friendly), Modern (professional spacing), Classic (traditional layout)
+- **PDF Export** — Download rendered resume as a formatted PDF
+- **Copy Utilities** — One-click copy as plain text or HTML
+- **Auto-Save** — Drafts are persisted to localStorage and restored on reload
+- **Responsive Design** — Optimized for desktop and mobile
+- **Fully Static** — Works entirely in the browser after build; deployable anywhere
+
+## Tech Stack
+
+- **React 18** — UI framework
+- **Vite** — Build tool and dev server
+- **react-markdown** — Markdown to React rendering
+- **html2pdf.js** — Client-side PDF generation
+- **DOMPurify** — HTML sanitization
+- **Inter** — Professional typography via Google Fonts
+
+## Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/codexfang/markdown-cv.git
+cd markdown-cv
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## Build & Deploy
+
+### Build for production
+
+```bash
+npm run build
+```
+
+The static output is written to the `dist/` directory.
+
+### Deploy to GitHub Pages
+
+```bash
+# Build the project
+npm run build
+
+# Deploy to the gh-pages branch
+npx gh-pages -d dist
+```
+
+Or set up GitHub Actions for automatic deployment on push to `main`.
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Editor.jsx          # Markdown editor textarea
+│   ├── Preview.jsx         # Live rendered preview
+│   ├── TemplateSelector.jsx # Template switcher
+│   └── ExportPanel.jsx     # PDF & copy actions
+├── utils/
+│   ├── storage.js          # localStorage helpers
+│   └── markdownParser.js   # HTML/text utilities
+├── styles/
+│   └── index.css           # Global styles & templates
+├── App.jsx                 # Main app with state management
+└── main.jsx                # Entry point
+```
+
+## Usage
+
+1. Write your resume in Markdown in the left editor panel
+2. See the rendered preview update in real time on the right
+3. Switch between Minimal, Modern, and Classic templates
+4. Export as PDF, or copy as plain text / HTML
+
+## License
+
+MIT

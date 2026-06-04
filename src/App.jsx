@@ -7,7 +7,6 @@ import { loadContent, saveContent, loadTemplate, saveTemplate } from './utils/st
 import './styles/index.css'
 
 const DEFAULT_CONTENT = `# Alex Chen
-## Senior Full Stack Engineer
 
 alex.chen@email.com | (415) 555-0192 | linkedin.com/in/alexchen | github.com/alexchen
 
@@ -23,9 +22,9 @@ Senior Full Stack Engineer with 7+ years of experience building distributed syst
 
 ### Senior Software Engineer — TechCorp
 *Jan 2021 – Present*
-- Architected event-driven microservices on AWS ECS/Kubernetes serving 2M+ monthly active users with 99.99% uptime
-- Designed GraphQL API layer (Apollo, Node.js, TypeScript) reducing mobile data payloads by 55% and improving page load times by 40%
-- Established CI/CD pipelines (GitHub Actions, Docker, Terraform) reducing deployment cycle from 2 hours to 12 minutes
+- Architected event-driven microservices on AWS ECS/Kubernetes serving 2M+ monthly active users
+- Designed GraphQL API layer (Apollo, Node.js, TypeScript) reducing mobile data payloads by 55%
+- Established CI/CD pipelines (GitHub Actions, Docker, Terraform) cutting deployment cycle from 2 hours to 12 minutes
 - Mentored 6 engineers through code reviews, architecture RFCs, and pair programming sessions
 
 ### Full Stack Developer — StartupX
@@ -37,8 +36,8 @@ Senior Full Stack Engineer with 7+ years of experience building distributed syst
 
 ### Junior Developer — DevLab
 *Sep 2016 – May 2018*
-- Contributed to Python/Flask monolith serving 100K+ requests per day; reduced technical debt through strategic refactoring
-- Automated data processing pipelines with Apache Airflow and Python, reducing manual reporting effort by 20 hours per week
+- Contributed to Python/Flask monolith serving 100K+ requests per day
+- Automated data processing pipelines with Apache Airflow and Python, reducing manual effort by 20 hours per week
 - Built internal monitoring dashboards using React, D3.js, and Prometheus/Grafana
 - Participated in on-call rotation and incident response, maintaining 99.9% service availability
 
@@ -55,7 +54,7 @@ Senior Full Stack Engineer with 7+ years of experience building distributed syst
 
 ## Skills
 
-TypeScript, JavaScript, Python, Go, React, Node.js, Express, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS (ECS, Lambda, S3), GraphQL, REST, Git, CI/CD`
+TypeScript, JavaScript, Python, Go, Java, SQL, GraphQL, HTML/CSS, React, Next.js, Redux, Tailwind CSS, D3.js, WebSocket, Node.js, Express, Apollo, Fastify, Docker, Kubernetes, Terraform, PostgreSQL, MongoDB, Redis, DynamoDB`
 
 export default function App() {
   const [content, setContent] = useState('')

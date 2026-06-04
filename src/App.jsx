@@ -55,13 +55,7 @@ Senior Full Stack Engineer with 7+ years of experience building distributed syst
 
 ## Skills
 
-**Languages:** TypeScript, JavaScript, Python, Go, Java, SQL, GraphQL, HTML/CSS
-**Frontend:** React, Next.js, Redux, Tailwind CSS, D3.js, WebSocket
-**Backend & APIs:** Node.js, Express, Apollo, Fastify, REST, GraphQL, gRPC
-**Cloud & Infrastructure:** AWS (ECS, Lambda, DynamoDB, SQS, S3, CloudFront), Docker, Kubernetes, Terraform, GitHub Actions
-**Databases:** PostgreSQL, MongoDB, Redis, DynamoDB, Elasticsearch
-**Observability:** Prometheus, Grafana, OpenTelemetry, Datadog, Sentry
-**Practices:** Microservices, Event-Driven Architecture, CQRS, TDD, Agile/Scrum`
+TypeScript, JavaScript, Python, Go, React, Node.js, Express, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS (ECS, Lambda, S3), GraphQL, REST, Git, CI/CD`
 
 export default function App() {
   const [content, setContent] = useState('')

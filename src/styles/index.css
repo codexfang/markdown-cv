@@ -222,15 +222,15 @@ body {
 }
 
 .resume-content {
-  padding: 40px 48px;
-  font-size: 13px;
-  line-height: 1.6;
+  padding: 32px 44px;
+  font-size: 12.5px;
+  line-height: 1.5;
   color: #374151;
 }
 
 /* ===== Resume Typography ===== */
 .resume-name {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: -0.03em;
@@ -239,32 +239,32 @@ body {
 }
 
 .resume-title {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--accent);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   line-height: 1.3;
 }
 
 .resume-contact {
-  font-size: 12px;
+  font-size: 11.5px;
   color: var(--text-secondary);
-  margin-bottom: 12px;
-  line-height: 1.5;
+  margin-bottom: 10px;
+  line-height: 1.4;
 }
 
 .resume-divider {
   border: none;
   border-top: 1px solid var(--border);
-  margin: 16px 0;
+  margin: 12px 0;
 }
 
 .resume-section-title {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--text-primary);
-  margin-top: 16px;
-  margin-bottom: 8px;
+  margin-top: 12px;
+  margin-bottom: 6px;
   letter-spacing: 0.02em;
 }
 
@@ -284,8 +284,8 @@ body {
 
 .resume-list li {
   position: relative;
-  padding-left: 16px;
-  margin-bottom: 4px;
+  padding-left: 14px;
+  margin-bottom: 3px;
 }
 
 .resume-list li::before {
@@ -314,38 +314,38 @@ body {
 
 /* Minimal - Clean ATS-style */
 .template-minimal .resume-content {
-  padding: 36px 44px;
-  font-size: 12px;
-  line-height: 1.5;
+  padding: 28px 40px;
+  font-size: 11.5px;
+  line-height: 1.45;
 }
 
 .template-minimal .resume-name {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   text-align: center;
 }
 
 .template-minimal .resume-title {
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-primary);
   font-weight: 500;
 }
 
 .template-minimal .resume-contact {
   text-align: center;
-  font-size: 11px;
+  font-size: 10.5px;
 }
 
 .template-minimal .resume-section-title {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   border-bottom: 1px solid var(--border);
-  padding-bottom: 4px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  padding-bottom: 3px;
+  margin-top: 16px;
+  margin-bottom: 8px;
 }
 
 .template-minimal .resume-divider {
@@ -359,17 +359,17 @@ body {
 
 /* Modern - Professional spacing */
 .template-modern .resume-content {
-  padding: 44px 52px;
+  padding: 36px 48px;
 }
 
 .template-modern .resume-name {
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 800;
   color: #111827;
 }
 
 .template-modern .resume-title {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--accent);
   margin-bottom: 4px;
@@ -377,29 +377,29 @@ body {
 
 .template-modern .resume-contact {
   display: flex;
-  gap: 16px;
+  gap: 14px;
   flex-wrap: wrap;
-  font-size: 12px;
-  margin-bottom: 16px;
-}
-
-.template-modern .resume-section-title {
-  font-size: 14px;
-  font-weight: 700;
-  color: #111827;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  border-bottom: 2px solid var(--accent);
-  padding-bottom: 6px;
-}
-
-.template-modern .resume-list {
+  font-size: 11.5px;
   margin-bottom: 12px;
 }
 
-.template-modern .resume-list li {
+.template-modern .resume-section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 16px;
   margin-bottom: 6px;
-  padding-left: 18px;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 5px;
+}
+
+.template-modern .resume-list {
+  margin-bottom: 10px;
+}
+
+.template-modern .resume-list li {
+  margin-bottom: 4px;
+  padding-left: 16px;
 }
 
 .template-modern .resume-list li::before {
@@ -421,11 +421,11 @@ body {
 }
 
 .template-classic .resume-content {
-  padding: 40px 48px;
+  padding: 32px 44px;
 }
 
 .template-classic .resume-name {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   font-family: Georgia, 'Times New Roman', serif;
   text-align: center;
@@ -433,7 +433,7 @@ body {
 
 .template-classic .resume-title {
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -443,23 +443,23 @@ body {
 
 .template-classic .resume-contact {
   text-align: center;
-  font-size: 11px;
+  font-size: 10.5px;
   font-style: italic;
   border-bottom: 1px solid #d1d5db;
-  padding-bottom: 12px;
-  margin-bottom: 12px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .template-classic .resume-section-title {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   font-family: Georgia, serif;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 16px;
+  margin-bottom: 8px;
   border-bottom: 1px solid #d1d5db;
-  padding-bottom: 6px;
+  padding-bottom: 5px;
 }
 
 .template-classic .resume-list li::before {
@@ -570,28 +570,28 @@ body {
   }
 
   .resume-content {
-    padding: 24px 20px;
-    font-size: 12px;
+    padding: 20px 18px;
+    font-size: 11.5px;
   }
 
   .resume-name {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .resume-title {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .template-modern .resume-content {
-    padding: 28px 24px;
-  }
-
-  .template-minimal .resume-content {
     padding: 24px 20px;
   }
 
+  .template-minimal .resume-content {
+    padding: 20px 16px;
+  }
+
   .template-classic .resume-content {
-    padding: 28px 24px;
+    padding: 24px 20px;
   }
 }
 

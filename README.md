@@ -28,6 +28,4 @@ A real-time Markdown-based resume builder with live preview and PDF export.
 - **DOMPurify** — HTML sanitization
 - **Inter** — Professional typography via Google Fonts
 
-## License
 
-MIT

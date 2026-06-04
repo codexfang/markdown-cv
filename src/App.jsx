@@ -15,7 +15,7 @@ alex.chen@email.com | (415) 555-0192 | linkedin.com/in/alexchen | github.com/ale
 
 ## Professional Summary
 
-Results-driven Senior Full Stack Engineer with 7+ years of experience designing, building, and scaling distributed systems and cloud-native applications. Proven track record of improving system performance by 40–60%, reducing infrastructure costs by 35%, and leading cross-functional engineering teams. Expert in React, Node.js, TypeScript, Go, and AWS with deep knowledge of microservices architecture, CI/CD pipelines, and database optimization.
+Senior Full Stack Engineer with 7+ years of experience building distributed systems and cloud-native applications. Proven track record of improving performance by 40–60%, reducing costs by 35%, and leading engineering teams. Expert in React, Node.js, TypeScript, Go, and AWS.
 
 ---
 
@@ -23,18 +23,16 @@ Results-driven Senior Full Stack Engineer with 7+ years of experience designing,
 
 ### Senior Software Engineer — TechCorp
 *Jan 2021 – Present*
-- Architected and deployed event-driven microservices on AWS ECS/Kubernetes serving 2M+ monthly active users with 99.99% uptime
+- Architected event-driven microservices on AWS ECS/Kubernetes serving 2M+ monthly active users with 99.99% uptime
 - Designed GraphQL API layer (Apollo, Node.js, TypeScript) reducing mobile data payloads by 55% and improving page load times by 40%
-- Led migration of legacy monolith to serverless (AWS Lambda, DynamoDB, SQS, EventBridge) cutting infrastructure costs by 35%
 - Established CI/CD pipelines (GitHub Actions, Docker, Terraform) reducing deployment cycle from 2 hours to 12 minutes
 - Mentored 6 engineers through code reviews, architecture RFCs, and pair programming sessions
 
 ### Full Stack Developer — StartupX
 *Jun 2018 – Dec 2020*
 - Built React/Redux SPA with real-time collaboration features (WebSocket, CRDT) used by 50K+ daily active users
-- Developed RESTful APIs in Node.js/Express with PostgreSQL (optimized queries, connection pooling, indexing) reducing p95 latency by 45%
+- Developed RESTful APIs in Node.js/Express with PostgreSQL reducing p95 latency by 45%
 - Implemented Redis caching layer and CDN strategy (CloudFront) improving API response times by 60%
-- Wrote comprehensive integration and end-to-end tests (Cypress, Jest, Supertest) achieving 92% code coverage
 - Collaborated in agile (Scrum) cross-functional pod of 8 engineers, designers, and product managers
 
 ### Junior Developer — DevLab
@@ -42,15 +40,11 @@ Results-driven Senior Full Stack Engineer with 7+ years of experience designing,
 - Contributed to Python/Flask monolith serving 100K+ requests per day; reduced technical debt through strategic refactoring
 - Automated data processing pipelines with Apache Airflow and Python, reducing manual reporting effort by 20 hours per week
 - Built internal monitoring dashboards using React, D3.js, and Prometheus/Grafana
+- Participated in on-call rotation and incident response, maintaining 99.9% service availability
 
 ---
 
 ## Education
-
-### M.S. Computer Science — Stanford University
-*2014 – 2016*
-- Research focus: Distributed Systems and Fault Tolerance
-- Graduate Teaching Assistant: Advanced Algorithms (CS 161)
 
 ### B.S. Computer Science — UC Berkeley
 *2010 – 2014*
